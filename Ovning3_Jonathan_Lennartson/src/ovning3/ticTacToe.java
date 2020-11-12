@@ -8,7 +8,7 @@ public class ticTacToe {
 		Scanner scanner = new Scanner(System.in);					//namn som skall spela. 
 		System.out.print("Spelare 1: ");							//
 		String player1 = scanner.nextLine();						//
-		System.out.print("Spelare 2: ");							//
+		System.out.print("Spelare 2: ");							//Här är spelare 2! ;P
 		String player2 = scanner.nextLine();						//
 			
 
@@ -195,7 +195,7 @@ public class ticTacToe {
 	private static void printGameboard(char[][] gameboard) {									//metod som skriver ut spelplanen 
 		for (char[] row : gameboard) {															//i consolen. 
 			System.out.println(row);
-		}
+		}																						// SLUUUUTTT
 	}
 
 }
