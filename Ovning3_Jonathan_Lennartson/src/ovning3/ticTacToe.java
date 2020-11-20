@@ -156,8 +156,8 @@ public class ticTacToe {
 				}
 				break;
 			} catch (Exception InputMismatchException) {				//detta fångar om något annat än en siffra blivit inmatad. 
-				System.out.println("Det måste vara ett nummer!");		//
-				scanner.nextLine();										//
+				System.out.println("Det måste vara ett nummer!");		//printar ett felmeddelande när det inte är en siffra som matats in. 
+				scanner.nextLine();										//användaren får mata in ett nytt nummer som sedan används i spelet.
 				continue;												//loopen börjar om här. 
 			}
 		}
@@ -195,7 +195,7 @@ public class ticTacToe {
 	private static void printGameboard(char[][] gameboard) {									//metod som skriver ut spelplanen 
 		for (char[] row : gameboard) {															//i consolen. 
 			System.out.println(row);
-		}																						// SLUUUUTTT
+		}																						// SLUUUUT
 	}
 
 }
