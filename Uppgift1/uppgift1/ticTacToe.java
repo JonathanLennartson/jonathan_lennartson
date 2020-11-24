@@ -1,4 +1,4 @@
-package ovning3;
+package uppgift1;
 
 import java.util.Scanner;
 
