@@ -1,12 +1,12 @@
 package uppgift2_3;
 
 public class Dog {
-	String n;
-	String r;
+	String name;
+	String race;
 	
-	Dog (String name, String race) {
-		n = name;
-		r = race;
+	Dog (String newName, String newRace) {
+		name = newName;
+		race = newRace;
 	}
 
 }
