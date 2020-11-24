@@ -8,6 +8,6 @@ public class Husse {
 	Dog Nova = new Dog("Nova", "German shepherd");
 	
 	public String toString() {
-		return "Jag heter " + name + " och har tre hundar som heter " + Bonzo.n + ", " + Stina.n + " och " + Nova.n + ".";
+		return "Jag heter " + name + " och har tre hundar som heter " + Bonzo.name + ", " + Stina.name + " och " + Nova.name + ".";
 	}
 }
