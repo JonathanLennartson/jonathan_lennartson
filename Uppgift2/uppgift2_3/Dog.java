@@ -4,9 +4,9 @@ public class Dog {
 	String name;
 	String race;
 	
-	Dog (String newName, String newRace) {
-		name = newName;
-		race = newRace;
+	Dog (String name, String race) {
+		this.name = name;
+		this.race = race;
 	}
 
 }
