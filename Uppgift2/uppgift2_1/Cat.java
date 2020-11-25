@@ -1,7 +1,12 @@
 package uppgift2_1;
 
-public class Cat {
+public class Cat extends Animal {	
+	String race;
+	String name;
 	
-	public String race = "Norwegian wood cat";
-	public String name = "Norry";
+	Cat (String type, String race, String name) {
+		super (type);
+		this.race = race;
+		this.name = name;
+	}
 }
