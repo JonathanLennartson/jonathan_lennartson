@@ -4,9 +4,9 @@ public class Cat {
 	String name;
 	String race;
 
-	public Cat(String newName, String newRace) {
-		name = newName;
-		race = newRace;
+	public Cat(String name, String race) {
+		this.name = name;
+		this.race = race;
 	}
 
 }
