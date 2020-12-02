@@ -1,9 +1,6 @@
 package Uppgift3;
 
-import java.util.Scanner;
-
 public class StopWatch extends Thread {
-	private Scanner scanner = new Scanner(System.in);
 	private volatile boolean counting = true;
 	private int minute = 0;
 	private int seconds = 0;
@@ -16,11 +13,10 @@ public class StopWatch extends Thread {
 			if (miliSeconds == 1000) {
 				miliSeconds = 000;
 				seconds++;
-			}
-			else if (seconds == 60) {
+			} else if (seconds == 60) {
 				seconds = 0;
-				minute ++;
-				
+				minute++;
+
 			}
 			try {
 				Thread.sleep(1);
@@ -31,7 +27,7 @@ public class StopWatch extends Thread {
 		}
 	}
 
-	public void stopCounting() {		
+	public void stopCounting() {
 		counting = false;
 		System.out.println("Stop");
 	}
