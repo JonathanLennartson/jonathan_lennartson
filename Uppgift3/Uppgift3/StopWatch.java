@@ -13,8 +13,8 @@ public class StopWatch extends Thread {
 		while (counting) {
 			System.out.println(minute + ":" + seconds + "," + miliSeconds);
 			miliSeconds++;
-			if (miliSeconds == 100) {
-				miliSeconds = 00;
+			if (miliSeconds == 1000) {
+				miliSeconds = 000;
 				seconds++;
 			}
 			else if (seconds == 60) {
@@ -23,7 +23,7 @@ public class StopWatch extends Thread {
 				
 			}
 			try {
-				Thread.sleep(10);
+				Thread.sleep(1);
 			} catch (InterruptedException e) {
 				// TODO Auto-generated catch block
 				e.printStackTrace();
