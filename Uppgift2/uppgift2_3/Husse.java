@@ -1,15 +1,9 @@
 package uppgift2_3;
 
-import java.util.Scanner;
-
-import uppgift2_1.Dog;
-
 public class Husse {
-	Dog dog = new Dog();
-	Scanner scanner = new Scanner(System.in);
-	private String name;	
+	private String name;
 	private int howManyDogs;
-		
+
 	public String getName() {
 		return name;
 	}
@@ -25,7 +19,5 @@ public class Husse {
 	public void setHowManyDogs(int howManyDogs) {
 		this.howManyDogs = howManyDogs;
 	}
-	
-	
 
 }
