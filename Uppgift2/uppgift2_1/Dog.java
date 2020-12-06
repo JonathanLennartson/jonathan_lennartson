@@ -1,6 +1,10 @@
 package uppgift2_1;
 
-public class Dog {
+import java.util.Scanner;
+
+public class Dog {	
+	Scanner scanner = new Scanner(System.in);
+
 	private String race;
 	private String name;
 	
@@ -13,8 +17,8 @@ public class Dog {
 	public String getName() {
 		return name;
 	}
-	public void setName(String name) {
-		this.name = name;
+	public String setName(String name) {
+		return this.name = name;
 	}
 
 	
