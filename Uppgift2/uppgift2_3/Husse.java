@@ -1,37 +1,31 @@
 package uppgift2_3;
 
-import java.util.ArrayList;
 import java.util.Scanner;
 
+import uppgift2_1.Dog;
+
 public class Husse {
+	Dog dog = new Dog();
 	Scanner scanner = new Scanner(System.in);
-	ArrayList<Dog> list = new ArrayList<Dog>();
-
-	String name;
-	int dogs;
-
-	public void name() {
-		System.out.println("Vad heter matte?");
-		this.name = scanner.nextLine();
+	private String name;	
+	private int howManyDogs;
+		
+	public String getName() {
+		return name;
 	}
 
-	public void howManyDogs() {
-		System.out.println("Hur många hundar " + name + "?");
-		this.dogs = scanner.nextInt();
+	public void setName(String name) {
+		this.name = name;
 	}
 
-	public void dogList() {
-		System.out.println("Vad heter hundarna?");
-		Dog dog = new Dog();
-		for (int i = 0; i < dogs; i++) {
-			dog.setName(scanner.nextLine());
-			list.add(i, dog);
-		}
-
+	public int getHowManyDogs() {
+		return howManyDogs;
 	}
 
-	public String toString() {
-		return "Jag heter " + name + " och har " + dogs + " hundar som heter " + list;
+	public void setHowManyDogs(int howManyDogs) {
+		this.howManyDogs = howManyDogs;
 	}
+	
+	
 
 }
