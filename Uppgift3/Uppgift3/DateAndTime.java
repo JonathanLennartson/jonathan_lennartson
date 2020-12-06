@@ -5,10 +5,24 @@ import java.time.format.DateTimeFormatter;
 
 public class DateAndTime {
 	private LocalDateTime now = LocalDateTime.now();
-	private DateTimeFormatter dft = DateTimeFormatter.ofPattern("yyyy-MM-dd, HH:mm:ss");
+	private DateTimeFormatter dft = DateTimeFormatter.ofPattern("yyyy-MM-dd   HH:mm:ss");
+	private String dateTime;
+	private String stopTime;
 	
-	public void getDateAndTime() {
-		System.out.println(dft.format(now));
+	public void setDateTime() {
+		this.dateTime = now.format(dft);
+	}
+	
+	public String getDateTime() {
+		return dateTime;
+	}
+	
+	public String getStopTime() {
+		return stopTime;
+	}
+
+	public void setStopTime(String stopTime) {
+		this.stopTime = stopTime;
 	}
 	
 	
