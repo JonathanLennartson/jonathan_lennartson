@@ -76,7 +76,7 @@ public class ticTacToe {
 			symbol = 'o';}											//
 		
 		while (true) {														//loop för att lägga sin bricka. 
-			int move = 0;													//loopen breakar efter varje omgång. 
+			int move;														//loopen breakar efter varje omgång. 
 			try {
 				move = scanner.nextInt();
 				
