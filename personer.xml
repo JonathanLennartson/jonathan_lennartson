@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="14.0.2" class="java.beans.XMLDecoder">
+ <object class="java.util.ArrayList">
+  <void method="add">
+   <object class="Uppgift4.Person">
+    <void property="age">
+     <int>34</int>
+    </void>
+    <void property="firstName">
+     <string>Janne</string>
+    </void>
+    <void property="lastName">
+     <string>Joffs</string>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="Uppgift4.Person">
+    <void property="age">
+     <int>34</int>
+    </void>
+    <void property="firstName">
+     <string>Jonathan</string>
+    </void>
+    <void property="lastName">
+     <string>Lennartson</string>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="Uppgift4.Person">
+    <void property="age">
+     <int>25</int>
+    </void>
+    <void property="firstName">
+     <string>Frida</string>
+    </void>
+    <void property="lastName">
+     <string>Listman</string>
+    </void>
+   </object>
+  </void>
+  <void method="add">
+   <object class="Uppgift4.Person">
+    <void property="age">
+     <int>45</int>
+    </void>
+    <void property="firstName">
+     <string>Ida</string>
+    </void>
+    <void property="lastName">
+     <string>Jonasson</string>
+    </void>
+   </object>
+  </void>
+ </object>
+</java>
