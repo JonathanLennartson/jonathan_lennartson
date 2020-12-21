@@ -14,10 +14,8 @@ public class NewAccountMethod {
 		
 		userHashList = XMLhandler.list;
 
-		if (password.equals(repeatPassword)) {
-		
-			account.setPassword(password);
-			
+		if (password.equals(repeatPassword)) {		
+			account.setPassword(password);			
 			userHashList.putIfAbsent(userName, account);
 			
 			AlertBox.show("Använadre: " + userName + ", har skapats.\nVänligen logga in.", "Skapad");
