@@ -7,15 +7,17 @@ public class SaldoList {
 
 	@SuppressWarnings({ "rawtypes", "unchecked" })
 	public static TableView getList() {
-		TableColumn plusAndMinus = new TableColumn("Inkomster/Uttag");
-		plusAndMinus.setMinWidth(160);
+		TableColumn plus = new TableColumn("Inkomster");
+		plus.setMinWidth(166);
+		TableColumn minus = new TableColumn("Utgifter"); 
+		minus.setMinWidth(166);
 		TableColumn saldo = new TableColumn("Saldo"); 
-		saldo.setMinWidth(160);
+		saldo.setMinWidth(166);
 		
 		TableView list = new TableView();
 		list.setMaxHeight(300);
-		list.setMaxWidth(320);
-		list.getColumns().addAll(plusAndMinus, saldo);		
+		list.setMaxWidth(500);
+		list.getColumns().addAll(plus, minus, saldo);		
 		
 		return list;
 	}  
