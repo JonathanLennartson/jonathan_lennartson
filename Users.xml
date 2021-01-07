@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="14.0.2" class="java.beans.XMLDecoder">
+ <object class="java.util.HashMap">
+  <void method="put">
+   <string>Kalle</string>
+   <object class="Uppgift5.Account">
+    <void property="dateTime">
+     <string>2021-01-08   00:28:28</string>
+    </void>
+    <void property="deposit">
+     <double>1000.0</double>
+    </void>
+    <void property="password">
+     <string>anka</string>
+    </void>
+    <void property="saldo">
+     <double>950.0</double>
+    </void>
+    <void property="withdraw">
+     <double>50.0</double>
+    </void>
+   </object>
+  </void>
+  <void method="put">
+   <string>Jonathan</string>
+   <object class="Uppgift5.Account">
+    <void property="password">
+     <string>Lennartson</string>
+    </void>
+   </object>
+  </void>
+ </object>
+</java>

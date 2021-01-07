@@ -1,16 +1,14 @@
 package Uppgift5;
 
-import java.util.ArrayList;
-
 public class Account {
 
 	private Double deposit;
 	private Double withdraw;	
-	private Double saldo = 0.0;
+	private Double saldo;
 	private int accountNumber;
 	private String password;
-	private ArrayList<Double> saldoList = new ArrayList<Double>();
 	private int accNum;
+	private Object dateTime;
 	
 	public String getPassword() {
 		return password;
@@ -48,8 +46,16 @@ public class Account {
 		return saldo;
 	}
 
-	public void setSaldo(double saldo) {				
+	public void setSaldo(Double saldo) {				
 		this.saldo = saldo;
+	}
+
+	public Object getDateTime() {
+		return dateTime;
+	}
+
+	public void setDateTime(Object dateTime) {
+		this.dateTime = dateTime;
 	}
 
 }
