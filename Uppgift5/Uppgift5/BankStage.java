@@ -104,7 +104,7 @@ public class BankStage {
 		stage.setTitle("JIBS - Jonathan International Banking System");
 		stage.showAndWait();
 	}
-
+	
 	private static void withdraw(String input, String userName, HashMap<String, Account> userHashList) {
 		try {
 			Account account = new Account();
